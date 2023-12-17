@@ -1,0 +1,155 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3xl);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3xl);
+}
+
+.about_img img {
+    width: 290px;
+}
+
+.about-sub-header {
+    font-weight: bolder;
+    font-size: var(--size-5xl);
+    line-height: 1.2;
+}
+
+#about-def {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--clr-dark);
+    line-height: 1.4;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-xl);
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+    .contents {
+        gap: var(--size-5xl);
+    }
+
+    .about_img img {
+        width: 440px;
+    }
+    
+    .about-content {
+        gap: var(--size-5xl);
+    }
+    
+    .about-sub-header {
+        font-size: var(--size-7xl);
+    }
+    
+    #about-def {
+        line-height: 1.7;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .contents {
+        flex-direction: row;
+        gap: var(--size-sm);
+    }
+    
+    .about-content {
+        gap: var(--size-xl);
+    }
+    
+    .about_img img {
+        width: 300px;
+    }
+    
+    .about-sub-header {
+        font-size: var(--size-3xl);
+    }
+    
+    #about-def {
+        font-size: 0.8rem;
+        color: var(--clr-dark);
+    }
+    
+    .description-container {
+        gap: var(--size-sm);
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .contents {
+        gap: var(--size-5xl);
+    }
+
+    .about_img img {
+        width: 390px;
+    }
+    
+    .about-sub-header {
+        font-size: var(--size-6xl);
+    }
+    
+    #about-def {
+        font-size: 1rem;
+        color: var(--clr-dark);
+    }
+    
+    .description-container {
+        gap: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .about_img img {
+        width: 470px;
+    }
+    
+    .about-sub-header {
+        font-size: var(--size-7xl);
+    }
+    
+    #about-def {
+        font-size: 1.2rem;
+    }
+    
+    .description-container {
+        gap: var(--size-lg);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .about_img img {
+        width: 530px;
+    }
+    
+    .about-sub-header {
+        font-size: var(--size-7xl);
+    }
+    
+    #about-def {
+        font-size: 1.2rem;
+    }
+    
+    .description-container {
+        gap: var(--size-lg);
+    }
+}

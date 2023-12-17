@@ -1,0 +1,150 @@
+
+.my-resume-section {
+    margin-top: var(--size-7xl);
+}
+
+.resume-upper h1 {
+    font-size: var(--size-4xl);
+    line-height: 1.2;
+}
+
+.my-resume-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4xl);
+}
+
+.resume-upper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4xl);
+}
+
+.resume-lower img {
+    width: 270px;
+}
+
+.resume-dl-btn {
+    width: fit-content;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    background-color: var(--clr-primary);
+    border-radius: 60px;
+    color: var(--clr-light);
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+    .resume-upper h1 {
+        font-size: var(--size-5xl);
+    }
+    
+    .resume-lower img {
+        width: 440px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .resume-upper h1 {
+        font-size: var(--size-4xl);
+        text-align: right;
+    }
+    
+    .my-resume-content {
+        display: flex;
+        flex-direction: row;
+        gap: var(--size-4xl);
+    }
+    
+    .resume-upper {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-4xl);
+        align-items: flex-end;
+    }
+    
+    .resume-lower img {
+        width: 270px;
+    }
+    
+    .resume-dl-btn {
+        width: fit-content;
+        padding: 0.8rem 2rem 0.8rem 2rem;
+        background-color: var(--clr-primary);
+        border-radius: 60px;
+        color: var(--clr-light);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .resume-upper h1 {
+        font-size: var(--size-6xl);
+        text-align: right;
+    }
+    
+    .resume-lower img {
+        width: 350px;
+    }
+
+    .my-resume-section {
+        margin-top: var(--size-9xl);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .resume-upper h1 {
+        font-size: var(--size-7xl);
+        text-align: right;
+    }
+    
+    .resume-lower img {
+        width: 450px;
+    }
+
+    .my-resume-section {
+        margin-top: var(--size-10xl);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .resume-upper h1 {
+        font-size: var(--size-7xl);
+        text-align: right;
+    }
+    
+    .resume-lower img {
+        width: 570px;
+    }
+
+    .resume-dl-btn {
+        font-size: var(--size-lg);
+        padding: 1rem 2rem 1em 2rem;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .resume-upper h1 {
+        font-size: var(--size-8xl);
+        text-align: right;
+    }
+    
+    .resume-lower img {
+        width: 680px;
+    }
+
+    .resume-dl-btn {
+        font-size: var(--size-xl);
+        padding: 1.4rem 2.5rem 1.4em 2.5rem;
+    }
+
+    .my-resume-section {
+        margin-top: 15rem;
+    }
+}
